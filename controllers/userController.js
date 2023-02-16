@@ -64,6 +64,7 @@ class userController {
               status: 'success',
               message: 'Login successfully',
               token: token,
+              user: user,
             });
           } else {
             res.send({
